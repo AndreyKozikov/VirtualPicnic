@@ -15,6 +15,7 @@ public class WordView {
             System.out.println("Чаще всего встречается слово: " + words.get(words.size() - 1).getWord() + ". Встречается раз: " + words.get(words.size() - 1).getWordCount());
             System.out.println("Реже всего встречается слово: " + words.get(0).getWord() + ". Встречается раз: " + words.get(0).getWordCount());
             System.out.println("Всего файл содержит уникальных слов: " + words.size());;
+            System.out.println(words);
         } catch (RuntimeException | IOException e){
 
         }
